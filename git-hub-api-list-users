@@ -42,7 +42,7 @@ echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
 list_users_with_read_access
 
 
-
+===============
 Prerequisit:
 sudo apt install jq -y
 export username="ruzzel6"
@@ -53,3 +53,4 @@ For Token Go to User icon >> Settings >> Developer Settings >> Personal access t
 To execute
 chmod +x script
 ./script organisation_name repo_name || ./script username repo_name
+Extra: (| jq -r '.[] | select(.permissions.pull == true) | .login delete for json and more details)
