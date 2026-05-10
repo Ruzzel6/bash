@@ -44,7 +44,7 @@ list_users_with_read_access
 
 
 Prerequisit:
-
+sudo apt install jq -y
 export username="ruzzel6"
 export token="dsfsfsdfggd"
 
