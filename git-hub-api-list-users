@@ -52,4 +52,4 @@ For Token Go to User icon >> Settings >> Developer Settings >> Personal access t
 
 To execute
 chmod +x script
-./script organisation_name repo_name
+./script organisation_name repo_name || ./script username repo_name
